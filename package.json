@@ -1,0 +1,17 @@
+{
+  "name": "aws-devops",
+  "scripts": {
+    "start": "imba -w src/server.imba",
+    "build": "imba build src/server.imba"
+  },
+  "dependencies": {
+    "@prisma/client": "^2.30.3",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "faker": "^5.5.3",
+    "imba": "^2.0.0-alpha.167"
+  },
+  "devDependencies": {
+    "prisma": "^2.30.3"
+  }
+}
